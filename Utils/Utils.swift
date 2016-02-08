@@ -10,12 +10,12 @@ import Foundation
 
 
 /**
- Invocs `block` after a specified `delay` in the main thread.
+ Executes `block` after a specified `delay` on the main thread.
  
- - parameters delay: Duration in seconds before invoking the `block`
- - parameters block: Block executed after `delay`seconds
+ - parameter delay: Duration in seconds before invoking the `block`
+ - parameter block: Block executed after `delay`seconds
  
- - credits: @matt http://stackoverflow.com/questions/24034544/dispatch-after-gcd-in-swift/24318861#24318861
+ - author: @matt ([Stackoverflow](http://stackoverflow.com/questions/24034544/dispatch-after-gcd-in-swift/24318861#24318861))
  */
 func delay(delay: Double, block: () -> ()) {
 
