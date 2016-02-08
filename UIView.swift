@@ -1,9 +1,9 @@
 //
 //  UIView.swift
-//  UtilsDemo
+//
 //
 //  Created by Tanguy Helesbeux on 08/02/2016.
-//  Copyright © 2016 Tanguy Helesbeux. All rights reserved.
+//
 //
 
 import UIKit
